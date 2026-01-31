@@ -140,23 +140,25 @@ Paste the content of `Code.gs` into the editor.
 
 Replace these placeholders with your real IDs:
 
-```js
+
 const sheetId    = "YOUR_GOOGLE_SHEET_ID";
 const folderId   = "YOUR_DRIVE_FOLDER_ID";
 const templateId = "YOUR_SLIDES_TEMPLATE_ID";
-Step 3: How to Get IDs
+
+
+### Step 3: How to Get IDs
 📌 Google Sheet ID
-From the URL:
+From the URL:https://docs.google.com/spreadsheets/d/SHEET_ID/edit
 
-https://docs.google.com/spreadsheets/d/SHEET_ID/edit
+
 📌 Google Slides Template ID
-From the URL:
+From the URL:https://docs.google.com/presentation/d/TEMPLATE_ID/edit
 
-https://docs.google.com/presentation/d/TEMPLATE_ID/edit
+
 📌 Google Drive Folder ID
-From the URL:
+From the URL:https://drive.google.com/drive/folders/FOLDER_ID
 
-https://drive.google.com/drive/folders/FOLDER_ID
+
 ▶️ Running the Script
 In Apps Script, select function:
 
@@ -193,22 +195,22 @@ Script can be safely re-run
 
 To regenerate a certificate, remove DONE from that row
 
-🛑 Common Errors & Fixes
-❌ Unexpected error while getting openById
+### 🛑 Common Errors & Fixes
+## ❌ Unexpected error while getting openById
 ✔ Ensure correct Sheet ID
 ✔ Grant permissions by running the script once
 
-❌ No item with the given ID
+## ❌ No item with the given ID
 ✔ Folder or template not accessible
 ✔ Ensure Editor access
 ✔ Move files from Shared with me to My Drive
 
-❌ Unknown error occurred
+## ❌ Unknown error occurred
 ✔ Add delay using Utilities.sleep(1000)
 ✔ Run for fewer rows
 ✔ Retry after 1–2 minutes
 
-🧪 Best Practices
+### 🧪 Best Practices
 Convert PDF → Slides for best quality
 
 Match slide size to background image
@@ -219,14 +221,14 @@ Avoid special characters in roll numbers
 
 Keep real IDs out of public repositories
 
-🔒 Security Notes
+### 🔒 Security Notes
 Never commit real Google IDs to GitHub
 
 Use placeholders in public repos
 
 Do not expose participant data
 
-📌 Use Cases
+### 📌 Use Cases
 College certificates
 
 Internship certificates
@@ -237,12 +239,11 @@ Hackathons
 
 NGO training programs
 
-👤 Author
+### 👤 Author
 Ishu Barman
-B.Tech (CSE)
 Google Workspace Automation | Web & IoT Enthusiast
 
-🌱 Future Enhancements
+### 🌱 Future Enhancements
 Automatic email delivery
 
 QR code verification
@@ -255,8 +256,7 @@ Retry & progress logging
 
 Admin dashboard
 
-⭐ Support
-If you found this project useful:
+### ⭐ Support If you found this project useful:
 
 ⭐ Star the repository
 
