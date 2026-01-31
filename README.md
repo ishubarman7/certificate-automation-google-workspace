@@ -71,9 +71,11 @@ Your Google Sheet **must** follow this structure:
 
 ### Example
 
-Name,Roll,Status
-Ishu Barman,21CSE001,
-Rahul Kumar,21CSE002,
+| Name |  Roll  | Status |
+|:-----|:--------:|------:|
+| ishu Barman   | 2420358 |  |
+| Muskan Kumari   |  2420360  |    |
+| Vikash Kumar   | 2420367 |     |
 
 
 ⚠️ Notes:
