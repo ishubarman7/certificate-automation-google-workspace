@@ -101,6 +101,7 @@ Example for **2400 × 1800 px @ 300 DPI**:
 - Set:
 Width : 20.32 cm
 Height : 15.24 cm
+**or According to your sample certificate size**
 
 
 ---
@@ -262,3 +263,21 @@ If you found this project useful:
 🐛 Report issues
 
 💡 Suggest improvements
+
+
+---
+
+### ✅ DONE
+This is:
+- ✔ One single file  
+- ✔ Fully detailed  
+- ✔ Recruiter-ready  
+- ✔ Production-grade  
+
+If you want next:
+- Architecture diagram
+- Demo GIF
+- Resume bullet points
+- LinkedIn post text  
+
+Just tell me 🚀
