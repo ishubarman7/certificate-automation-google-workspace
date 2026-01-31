@@ -101,6 +101,7 @@ Example for **2400 × 1800 px @ 300 DPI**:
 - Set:
 Width : 20.32 cm
 Height : 15.24 cm
+**or According to your sample certificate size**
 
 
 ---
